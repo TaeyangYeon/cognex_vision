@@ -1,0 +1,7 @@
+Time,Level,Location,Message
+19:14:42.902,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+19:14:43.829,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+19:14:43.834,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+19:14:43.835,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+19:14:43.837,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+19:14:43.846,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004

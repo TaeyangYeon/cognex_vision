@@ -1,0 +1,230 @@
+﻿<Window x:Class="UI.Form_Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:local="clr-namespace:UI"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:wpf="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d" 
+        WindowStyle="None"
+        Title="Form_Main" Height="1080" Width="1920"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="18"
+        FontFamily="{materialDesign:MaterialDesignFont}">
+    <Grid Background="#2D2D30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ContentControl x:Name="headerContent" Grid.Row="0"/>
+        
+        <Grid Grid.Row="1">
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1370"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0" VerticalAlignment="Bottom" Margin="20, 0 ,0, 20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Border Grid.Row="0" Grid.Column="0" Margin="10" BorderBrush="#FF3F3F46" BorderThickness="1">
+                    <Grid x:Name="displayGrid1" Width="640" Height="480">
+                    </Grid>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="1" Margin="10" BorderBrush="#FF3F3F46" BorderThickness="1">
+                    <Grid x:Name="displayGrid2" Width="640" Height="480">
+                    </Grid>
+                </Border>
+                <Border Grid.Row="1" Grid.Column="0" Margin="10" BorderBrush="#FF3F3F46" BorderThickness="1">
+                    <Grid x:Name="displayGrid3" Width="640" Height="480">
+                    </Grid>
+                </Border>
+                <Border Grid.Row="1" Grid.Column="1" Margin="10" BorderBrush="#FF3F3F46" BorderThickness="1">
+                    <Grid x:Name="displayGrid4" Width="640" Height="480">
+                    </Grid>
+                </Border>
+            </Grid>
+
+            <Grid Grid.Column="1" VerticalAlignment="Bottom" Margin="0, 0, 20, 55">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="680"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0, 0, 0, 10">
+                        <Button Content="Live" Background="Transparent" Click="connectToCamera" Style="{StaticResource MaterialDesignFlatButton}" FontSize="21" Foreground="White"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Border CornerRadius="11" Background="#20000000" Margin="5, 0">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="#1" Foreground="White" VerticalAlignment="Center" Margin="10,0"/>
+                                    <ToggleButton Style="{StaticResource MaterialDesignSwitchToggleButton}" 
+                                                  x:Name="liveToggleButton1"
+                                                  Checked="checkedChangedDisplay1"
+                                                  Unchecked="checkedChangedDisplay1"/>
+                                </StackPanel>
+                            </Border>
+                            <Border CornerRadius="11" Background="#20000000" Margin="5, 0">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="#2" Foreground="White" VerticalAlignment="Center" Margin="10,0"/>
+                                    <ToggleButton Style="{StaticResource MaterialDesignSwitchToggleButton}" 
+                                                  x:Name="liveToggleButton2"
+                                                  Checked="checkedChangedDisplay2"
+                                                  Unchecked="checkedChangedDisplay2"/>
+                                </StackPanel>
+                            </Border>
+                            <Border CornerRadius="11" Background="#20000000" Margin="5, 0">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="#3" Foreground="White" VerticalAlignment="Center" Margin="10,0"/>
+                                    <ToggleButton Style="{StaticResource MaterialDesignSwitchToggleButton}" 
+                                                  x:Name="liveToggleButton3"
+                                                  Checked="checkedChangedDisplay3"
+                                                  Unchecked="checkedChangedDisplay3"/>
+                                </StackPanel>
+                            </Border>
+                            <Border CornerRadius="11" Background="#20000000" Margin="5, 0, 0, 0">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="#4" Foreground="White" VerticalAlignment="Center" Margin="10,0"/>
+                                    <ToggleButton Style="{StaticResource MaterialDesignSwitchToggleButton}" 
+                                                  x:Name="liveToggleButton4"
+                                                  Checked="checkedChangedDisplay4"
+                                                  Unchecked="checkedChangedDisplay4"/>
+                                </StackPanel>
+                            </Border>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="20, 5">
+                    <Button Style="{StaticResource MaterialDesignIconButton}"
+                            Click="alignCycleTestClick"
+                            Foreground="White"
+                            Height="26"
+                            Width="26"
+                            Margin="0, 0, 10, 0"
+                            >
+                        <wpf:PackIcon Kind="Notebook"/>
+                    </Button>
+                    <Button Content="Align Log" 
+                            Background="Transparent" 
+                            MouseDoubleClick="changeLogType" 
+                            x:Name="logTitle" 
+                            Style="{StaticResource MaterialDesignFlatButton}" 
+                            FontSize="21" 
+                            Foreground="White"/>
+                    <ComboBox materialDesign:HintAssist.Hint="Select Log"
+                              Style="{StaticResource MaterialDesignOutlinedComboBox}"
+                              x:Name="logLevel"
+                              FontSize="11"
+                              Height="30"
+                              Padding="12, 0"
+                              HorizontalContentAlignment="Center"
+                              Visibility="Collapsed"
+                              SelectionChanged="selectSystemLogLevel">
+                        <ComboBoxItem>ALL</ComboBoxItem>
+                        <ComboBoxItem>TRACE</ComboBoxItem>
+                        <ComboBoxItem>DEBUG</ComboBoxItem>
+                        <ComboBoxItem>INFO</ComboBoxItem>
+                        <ComboBoxItem>WARN</ComboBoxItem>
+                        <ComboBoxItem>ERROR</ComboBoxItem>
+                    </ComboBox>
+                </StackPanel>
+
+                <StackPanel x:Name="positionIndex" Grid.Row="2" Orientation="Horizontal" Margin="0, 10, 0, 10" HorizontalAlignment="Center">
+                    <Button Content="#1" x:Name="position_button1" Click="positionButton1Click" Width="100" Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" Margin="5,0"/>
+                    <Button Content="#2" x:Name="position_button2" Click="positionButton2Click" Width="100" Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" Margin="5,0"/>
+                    <Button Content="#3" x:Name="position_button3" Click="positionButton3Click" Width="100" Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" Margin="5,0"/>
+                    <Button Content="#4" x:Name="position_button4" Click="positionButton4Click" Width="100" Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" Margin="5,0"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="3">
+                    <ListBox x:Name="log_list1" Background="Transparent" Foreground="White" Visibility="Visible" Margin="20" Height="620" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                        <!-- ListBox 1 items -->
+                    </ListBox>
+                    <ListBox x:Name="log_list2" Background="Transparent" Foreground="White" Visibility="Collapsed" Margin="20" Height="620" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                        <!-- ListBox 2 items -->
+                    </ListBox>
+                    <ListBox x:Name="log_list3" Background="Transparent" Foreground="White" Visibility="Collapsed" Margin="20" Height="620" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                        <!-- ListBox 3 items -->
+                    </ListBox>
+                    <ListBox x:Name="log_list4" Background="Transparent" Foreground="White" Visibility="Collapsed" Margin="20" Height="620" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                        <!-- ListBox 4 items -->
+                    </ListBox>
+                    <ListBox x:Name="system_log_list" Background="Transparent" Foreground="White" Visibility="Collapsed" Margin="20" Height="640" ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                    </ListBox>
+                </StackPanel>
+
+                <Grid Grid.Row="4" Margin="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Text="RESULT" Style="{StaticResource MaterialDesignHeadline5TextBlock}" Foreground="White" Margin="0,0,0,10"/>
+
+                    <Grid Grid.Row="1" Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="" Padding="28, 0" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Grid.Column="1" Text="#1" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Grid.Column="2" Text="#2" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Grid.Column="3" Text="#3" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Grid.Column="4" Text="#4" Foreground="White" HorizontalAlignment="Center"/>
+                    </Grid>
+
+                    <Grid Grid.Row="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Total" Foreground="White" Margin="0,0,20,0"/>
+                        <TextBlock Grid.Row="0" x:Name="result_total1" Grid.Column="1" Text="0" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Grid.Row="0" x:Name="result_total2" Grid.Column="2" Text="0" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Grid.Row="0" x:Name="result_total3" Grid.Column="3" Text="0" Foreground="White" HorizontalAlignment="Center"/>
+                        <TextBlock Grid.Row="0" x:Name="result_total4" Grid.Column="4" Text="0" Foreground="White" HorizontalAlignment="Center"/>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="NG" Foreground="OrangeRed" Margin="0,10,20,0"/>
+                        <TextBlock Grid.Row="1" x:Name="result_ng1" Grid.Column="1" Text="0" Foreground="OrangeRed" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+                        <TextBlock Grid.Row="1" x:Name="result_ng2" Grid.Column="2" Text="0" Foreground="OrangeRed" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+                        <TextBlock Grid.Row="1" x:Name="result_ng3" Grid.Column="3" Text="0" Foreground="OrangeRed" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+                        <TextBlock Grid.Row="1" x:Name="result_ng4" Grid.Column="4" Text="0" Foreground="OrangeRed" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+
+        <!--
+        <ContentControl x:Name="loadingContent" Panel.ZIndex="1000" 
+                        Background="Transparent"
+                        Width="500" Height="250"
+                        Grid.Row="1"
+                        Visibility="Collapsed"/>
+        -->
+    </Grid>
+</Window>

@@ -1,0 +1,195 @@
+Time,Level,Location,Message
+17:38:11.018,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+17:38:11.731,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+17:38:11.732,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+17:38:11.735,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+17:38:11.736,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+17:38:11.746,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004
+17:41:32.364,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+17:41:32.719,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+17:41:32.721,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+17:41:32.721,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+17:41:32.721,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+17:41:32.722,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004
+17:43:17.408,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+17:43:17.779,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+17:43:17.780,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+17:43:17.781,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+17:43:17.781,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+17:43:17.782,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004
+17:51:12.759,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+17:51:13.146,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+17:51:13.148,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+17:51:13.149,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+17:51:13.149,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+17:51:13.149,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004
+17:51:44.679,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+17:51:44.680,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+17:51:44.681,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+17:51:44.682,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+17:51:44.682,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+17:51:44.683,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+17:51:44.684,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+17:51:44.684,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+17:51:44.685,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+17:51:44.686,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\UI\Layout_Header.xaml.cs.exitButtonClick,Application Exit!
+17:52:35.191,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+17:52:35.593,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+17:52:35.594,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+17:52:35.596,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+17:52:35.596,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+17:52:35.597,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004
+17:52:50.864,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+17:52:50.865,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+17:52:50.866,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+17:52:50.866,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+17:52:50.868,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+17:52:50.868,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+17:52:50.870,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+17:52:50.870,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+17:52:50.871,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+17:52:50.872,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\UI\Layout_Header.xaml.cs.exitButtonClick,Application Exit!
+18:39:37.495,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+18:39:38.025,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+18:39:38.026,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+18:39:38.028,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+18:39:38.028,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+18:39:38.029,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004
+18:40:35.626,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+18:40:35.626,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+18:40:35.627,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+18:40:35.627,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+18:40:35.628,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+18:40:35.628,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+18:40:35.628,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+18:40:35.629,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+18:40:35.629,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+18:40:35.629,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\UI\Layout_Header.xaml.cs.exitButtonClick,Application Exit!
+18:56:51.665,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+18:56:52.167,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+18:56:52.169,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+18:56:52.170,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+18:56:52.171,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+18:56:52.172,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004
+18:57:15.996,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+18:57:15.996,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+18:57:15.998,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+18:57:15.998,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+18:57:15.999,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+18:57:15.999,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+18:57:15.999,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+18:57:16.001,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+18:57:16.001,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+18:57:16.002,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\UI\Layout_Header.xaml.cs.exitButtonClick,Application Exit!
+19:12:33.190,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+19:12:33.874,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+19:12:33.875,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+19:12:33.877,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+19:12:33.877,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+19:12:33.878,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004
+19:13:38.041,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.checkInitialized,Camera is not initialized.
+19:13:41.898,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.checkInitialized,Camera is not initialized.
+19:13:51.724,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:13:51.725,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:13:51.727,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:13:51.727,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:13:51.728,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:13:51.729,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:13:51.730,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:13:51.731,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:13:51.732,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:13:51.732,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\UI\Layout_Header.xaml.cs.exitButtonClick,Application Exit!
+19:16:03.249,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+19:16:03.700,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+19:16:03.702,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+19:16:03.703,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+19:16:03.703,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+19:16:03.704,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004
+19:16:07.437,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.checkInitialized,Camera is not initialized.
+19:16:09.691,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.checkInitialized,Camera is not initialized.
+19:16:13.192,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:16:13.193,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:16:13.194,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:16:13.194,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:16:13.194,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:16:13.195,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:16:13.195,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:16:13.196,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:16:13.197,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:16:13.197,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\UI\Layout_Header.xaml.cs.exitButtonClick,Application Exit!
+19:19:05.503,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+19:19:05.850,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+19:19:05.852,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+19:19:05.853,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+19:19:05.854,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+19:19:05.854,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004
+19:19:09.218,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.checkInitialized,Camera is not initialized.
+19:19:09.802,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.checkInitialized,Camera is not initialized.
+19:19:14.846,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:19:14.847,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:19:14.848,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:19:14.848,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:19:14.849,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:19:14.850,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:19:14.850,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:19:14.850,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:19:14.850,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:19:14.851,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\UI\Layout_Header.xaml.cs.exitButtonClick,Application Exit!
+19:27:52.842,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+19:27:53.286,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+19:27:53.288,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+19:27:53.289,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+19:27:53.305,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+19:27:53.305,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004
+19:28:00.217,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.checkInitialized,Camera is not initialized.
+19:28:28.467,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.checkInitialized,Camera is not initialized.
+19:28:38.384,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.initializeCamera,요청한 카메라의 수량과 연결된 카메라의 수량이 맞지 않습니다.
+19:28:50.661,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.checkInitialized,Camera is not initialized.
+19:29:06.751,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:29:06.752,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:29:06.754,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:29:06.754,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:29:06.755,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:29:06.756,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:29:06.756,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:29:06.757,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:29:06.758,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:29:06.759,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\UI\Layout_Header.xaml.cs.exitButtonClick,Application Exit!
+19:29:31.338,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+19:29:31.722,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+19:29:31.723,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+19:29:31.724,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+19:29:31.725,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+19:29:31.725,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004
+19:29:35.816,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.checkInitialized,Camera is not initialized.
+19:29:45.304,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.connectToServer,대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 192.168.65.246:5000
+19:29:55.825,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:29:55.825,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:29:55.826,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:29:55.827,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:29:55.828,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:29:55.828,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:29:55.829,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:29:55.829,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:29:55.830,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:29:55.830,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\UI\Layout_Header.xaml.cs.exitButtonClick,Application Exit!
+19:30:09.364,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\MainWindow.xaml.cs.mainWindowLoad,Application Start!
+19:30:09.682,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5000
+19:30:09.683,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5001
+19:30:09.684,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5002
+19:30:09.684,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5003
+19:30:09.685,INFO,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs..ctor,Create Socket Instance. IP : 192.168.65.246, PORT : 5004
+19:30:12.758,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.checkInitialized,Camera is not initialized.
+19:30:19.341,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.connectToServer,대상 컴퓨터에서 연결을 거부했으므로 연결하지 못했습니다 192.168.65.246:5000
+19:30:26.846,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.checkInitialized,Camera is not initialized.
+19:30:29.226,ERROR,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.checkInitialized,Camera is not initialized.
+19:31:07.379,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:31:07.380,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:31:07.381,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:31:07.381,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:31:07.382,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:31:07.383,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:31:07.384,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:31:07.384,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\PLC\SocketCommunication.cs.Dispose,Socket Instance Dispose.
+19:31:07.385,DEBUG,D:\YEON\PRAC\Vision_WPF\Vision_WPF\Vision\Grab\GrabControl.cs.Dispose,Grab Instance Dispose.
+19:31:07.385,TRACE,D:\YEON\PRAC\Vision_WPF\Vision_WPF\UI\Layout_Header.xaml.cs.exitButtonClick,Application Exit!

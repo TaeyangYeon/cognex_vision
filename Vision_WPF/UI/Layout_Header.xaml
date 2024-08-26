@@ -1,0 +1,106 @@
+﻿<UserControl x:Class="UI.Layout_Header"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UI"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:wpf="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             Height="62" Width="1920">
+    <Grid Background="#2D2D30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="59"/>
+            <RowDefinition Height="1"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1300" />
+                <ColumnDefinition Width="420" />
+                <ColumnDefinition Width="200" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0"
+                        Orientation="Horizontal"
+                        HorizontalAlignment="Left">
+                <Button Style="{StaticResource MaterialDesignIconButton}"
+                        x:Name="connectButton"
+                        Width="20"
+                        Height="20"
+                        Background="#F0F0F0"
+                        Margin="20, 0, 10, 0"/>
+                <Label Content="Model Name"
+                       x:Name="modelNameButton"
+                       Style="{StaticResource MaterialDesignLabel}"
+                       FontSize="17"
+                       VerticalAlignment="Center"/>
+                <Label Content=":"
+                       Style="{StaticResource MaterialDesignLabel}"
+                       FontSize="17"
+                       VerticalAlignment="Center"/>
+                <Label Content=""
+                       x:Name="modelName"
+                        Style="{StaticResource MaterialDesignLabel}"
+                       FontSize="17"
+                       VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" 
+                        Orientation="Horizontal" 
+                        HorizontalAlignment="Center">
+                <Button Content="Main" 
+                        Style="{StaticResource MaterialDesignFlatButton}"
+                        FontSize="17"
+                        x:Name="main_button"
+                        Click="mainButtonClick"
+                        Foreground="White"/>
+                <Button Content="Pattern" 
+                        Style="{StaticResource MaterialDesignFlatButton}"
+                        FontSize="17"
+                        x:Name="pattern_button"
+                        Click="patternButtonClick"
+                        Foreground="White"/>
+                <Button Content="Measure" 
+                        Style="{StaticResource MaterialDesignFlatButton}"
+                        FontSize="17"
+                        x:Name="measure_button"
+                        Click="measureButtonClick"
+                        Foreground="White"/>
+                <Button Content="Log" 
+                        Style="{StaticResource MaterialDesignFlatButton}"
+                        FontSize="17"
+                        x:Name="log_button"
+                        Click="logButtonClick"
+                        Foreground="White"/>
+                <Button Content="Interface" 
+                        Style="{StaticResource MaterialDesignFlatButton}"
+                        FontSize="17"
+                        x:Name="interface_button"
+                        Click="interfaceButtonClick"
+                        Foreground="White"/>
+            </StackPanel>
+            <StackPanel Grid.Column="2" 
+                        Orientation="Horizontal" 
+                        HorizontalAlignment="Right">
+                <Button Style="{StaticResource MaterialDesignIconButton}"
+                        Foreground="#F0F0F0"
+                        x:Name="system_button"
+                        Click="systemButtonClick">
+                    <wpf:PackIcon Kind="Settings" />
+                </Button>
+                <Button Style="{StaticResource MaterialDesignIconButton}"
+                        Foreground="#F0F0F0"
+                        x:Name="lock_button"
+                        Click="lockButtonClick">
+                    <wpf:PackIcon x:Name="lockIcon" Kind="Lock"/>
+                </Button>
+                <Button Style="{StaticResource MaterialDesignIconButton}"
+                        Foreground="White"
+                        Margin="10, 0, 0, 0"
+                        Click="exitButtonClick">
+                    <wpf:PackIcon Kind="Close"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+        <Border Grid.Row="1"
+                Background="#3F3F46"/>
+    </Grid>
+</UserControl>
