@@ -143,7 +143,7 @@
                 </StackPanel>
 
                 <StackPanel x:Name="positionIndex" Grid.Row="2" Orientation="Horizontal" Margin="0, 10, 0, 10" HorizontalAlignment="Center">
-                    <Button Content="#1" x:Name="position_button1" Click="positionButton1Click" Width="100" Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" Margin="5,0"/>
+                    <Button Content="#1" x:Name="position_button1" Click="positionButton1Click" MouseDoubleClick="Position_button1_OnMouseDoubleClick" Width="100" Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" Margin="5,0"/>
                     <Button Content="#2" x:Name="position_button2" Click="positionButton2Click" Width="100" Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" Margin="5,0"/>
                     <Button Content="#3" x:Name="position_button3" Click="positionButton3Click" Width="100" Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" Margin="5,0"/>
                     <Button Content="#4" x:Name="position_button4" Click="positionButton4Click" Width="100" Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" Margin="5,0"/>

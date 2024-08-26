@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Cognex.VisionPro;
+using Cognex.VisionPro.Display;
 using UI;
 
 namespace FormEvent

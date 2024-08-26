@@ -8,6 +8,7 @@ using Vision;
 using UI;
 using System.Windows.Controls;
 using Cognex.VisionPro;
+using Cognex.VisionPro.Display;
 using Microsoft.Win32;
 
 namespace FormEvent

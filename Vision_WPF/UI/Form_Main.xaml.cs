@@ -34,7 +34,8 @@ namespace UI
     {
         private Layout_Header header;
 
-        private IMainEvent[] mainEvent;
+        // private IMainEvent[] mainEvent;
+        private IMainEvent_2[] mainEvent;
         private MainWindow main;
         private Component_Loading loading;
         private Component_PromptPW promptPW;
@@ -93,6 +94,7 @@ namespace UI
             logListLevel = "ALL";
             loadSystemLog();
 
+            /*
             mainEvent = new IMainEvent[]
             {
                 new MainEventConfig().iMainEvent(5000),
@@ -100,6 +102,15 @@ namespace UI
                 new MainEventConfig().iMainEvent(5002, display2, 1),
                 new MainEventConfig().iMainEvent(5003, display3, 2),
                 new MainEventConfig().iMainEvent(5004, display4, 3)
+            };
+            */
+            mainEvent = new IMainEvent_2[]
+            {
+                new MainEventConfig().iMainEvent_2(5000),
+                new MainEventConfig().iMainEvent_2(5001),
+                new MainEventConfig().iMainEvent_2(5002),
+                new MainEventConfig().iMainEvent_2(5003),
+                new MainEventConfig().iMainEvent_2(5004)
             };
 
             ranNum = new Random();
@@ -201,10 +212,13 @@ namespace UI
 
             try
             {
+                /*
                 mainEvent[1].initializeCamera();
                 mainEvent[2].initializeCamera();
                 mainEvent[3].initializeCamera();
                 mainEvent[4].initializeCamera();
+                */
+                await mainEvent[1].initializeCamera();
             }
             catch(Exception ex)
             {
@@ -219,22 +233,27 @@ namespace UI
             GC.WaitForPendingFinalizers();
         }
 
-        private void checkedChangedDisplay1(object sender, RoutedEventArgs e) => toggleLiveMode(sender as ToggleButton, 1);
-        private void checkedChangedDisplay2(object sender, RoutedEventArgs e) => toggleLiveMode(sender as ToggleButton, 2);
-        private void checkedChangedDisplay3(object sender, RoutedEventArgs e) => toggleLiveMode(sender as ToggleButton, 3);
-        private void checkedChangedDisplay4(object sender, RoutedEventArgs e) => toggleLiveMode(sender as ToggleButton, 4);
+        private async void checkedChangedDisplay1(object sender, RoutedEventArgs e) => await toggleLiveMode(sender as ToggleButton, 0);
+        private async void checkedChangedDisplay2(object sender, RoutedEventArgs e) => await toggleLiveMode(sender as ToggleButton, 1);
+        private async void checkedChangedDisplay3(object sender, RoutedEventArgs e) => await toggleLiveMode(sender as ToggleButton, 2);
+        private async void checkedChangedDisplay4(object sender, RoutedEventArgs e) => await toggleLiveMode(sender as ToggleButton, 3);
 
         private bool isUpdating = false;
-        private void toggleLiveMode(ToggleButton sender, int index)
+        private async Task toggleLiveMode(ToggleButton sender, int index)
         {
             if (isUpdating) return;
 
             isUpdating = true;
             try
             {
+                /*
                 mainEvent[index].toggleLiveMode(sender.IsChecked == true);
 
                 if (sender.IsChecked == false) displays[index].Image = mainEvent[index].grabImage();
+                */
+                mainEvent[1].toggleLiveMode(index, sender.IsChecked == true, displays[index]);
+
+                if (sender.IsChecked == false) displays[index].Image = await mainEvent[1].grabImage(index, displays[index]);
             }
             catch (Exception)
             {
@@ -325,8 +344,8 @@ namespace UI
 
             main.disableWindow();
             promptPW.passwordChecked += passwordChecked;
-            promptPW.KeyDown += closePromptPWComponent;
-            promptPW.exitButton.Click += prompptPWComponentExitButtonClick;  
+            promptPW.KeyDown += closePromptPwComponent;
+            promptPW.exitButton.Click += prompptPwComponentExitButtonClick;  
             promptPW.Topmost = true;
             promptPW.showUseFadeIn(0.5);
         }
@@ -349,12 +368,12 @@ namespace UI
             }
         }
 
-        private void closePromptPWComponent(object sender, KeyEventArgs e)
+        private void closePromptPwComponent(object sender, KeyEventArgs e)
         {
             main.enableWindow();
         }
 
-        private void prompptPWComponentExitButtonClick(object sender, EventArgs e)
+        private void prompptPwComponentExitButtonClick(object sender, EventArgs e)
         {
             main.enableWindow();
         }
@@ -425,6 +444,11 @@ namespace UI
         public void closeMainBody()
         {
             foreach (var mEvent in mainEvent) mEvent.Dispose();
+        }
+
+        private void Position_button1_OnMouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            mainEvent[1].loadImage(displays[0]);
         }
     }
 }
