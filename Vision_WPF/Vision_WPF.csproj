@@ -144,11 +144,10 @@
     <Compile Include="FormEvent\ComponentSystemEvent\SystemEvent.cs" />
     <Compile Include="FormEvent\ComponentSystemEvent\SystemEventConfig.cs" />
     <Compile Include="FormEvent\FormMainEvent\IMainEvent.cs" />
-    <Compile Include="FormEvent\FormMainEvent\IMainEvent_2.cs" />
     <Compile Include="FormEvent\FormMainEvent\IPositionChangeEvent.cs" />
     <Compile Include="FormEvent\FormMainEvent\MainEvent.cs" />
     <Compile Include="FormEvent\FormMainEvent\MainEventConfig.cs" />
-    <Compile Include="FormEvent\FormMainEvent\MainEvent_2.cs" />
+    <Compile Include="FormEvent\FormMainEvent\MainEventGrabAsync.cs" />
     <Compile Include="FormEvent\FormMainEvent\PositionChangeEvent.cs" />
     <Compile Include="FormEvent\IButtonEvent.cs" />
     <Compile Include="FormEvent\ILayoutEvent.cs" />
@@ -208,8 +207,9 @@
     <Compile Include="UI\Layout_Header.xaml.cs">
       <DependentUpon>Layout_Header.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Vision\Grab\GrabControl.cs" />
-    <Compile Include="Vision\Grab\GrabControl_2.cs" />
+    <Compile Include="Vision\Grab\GrabControlSync.cs" />
+    <Compile Include="Vision\Grab\GrabControlAsync.cs" />
+    <Compile Include="Vision\Grab\GrabException.cs" />
     <Compile Include="Vision\Grab\IGrabControl.cs" />
     <Compile Include="Vision\ImageFile\IImageFileControl.cs" />
     <Compile Include="Vision\ImageFile\ImageFileControl.cs" />

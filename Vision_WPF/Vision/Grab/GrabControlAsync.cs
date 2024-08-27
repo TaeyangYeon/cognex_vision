@@ -9,17 +9,17 @@ using SystemConf;
 
 namespace Vision
 {
-    public class GrabControl_2 : IDisposable
+    public class GrabControlAsync : IDisposable
     {
-        private static readonly Lazy<GrabControl_2> _instance = new Lazy<GrabControl_2>(() => new GrabControl_2());
-        public static GrabControl_2 instance => _instance.Value;
+        private static readonly Lazy<GrabControlAsync> _instance = new Lazy<GrabControlAsync>(() => new GrabControlAsync());
+        public static GrabControlAsync instance => _instance.Value;
 
         private readonly Dictionary<int, CameraInfo> cameras = new Dictionary<int, CameraInfo>();
         private readonly SemaphoreSlim semaphore = new SemaphoreSlim(4, 4);
         private bool isInitialized = false;
         private readonly int cameraCount = 4;
 
-        private GrabControl_2() { }
+        private GrabControlAsync() { }
 
         public async Task initializeAsync()
         {
@@ -32,19 +32,21 @@ namespace Vision
                 }
                 await Task.Run(() =>
                 {
-                    CogFrameGrabbers grabbers = new CogFrameGrabbers();
-
-                    for (int i = 0; i < cameraCount; i++)
+                    using (CogFrameGrabbers grabbers = new CogFrameGrabbers())
                     {
-                        if (grabbers.Count <= i)
+                        if (grabbers.Count != cameraCount) throw new NotMatchedCameraQuantityException("Is not matched cameras quantity.");
+                        for (int i = 0; i < cameraCount; i++)
                         {
-                            throw new InvalidOperationException($"Requested camera {i} is not available.");
-                        }
+                            if (grabbers.Count <= i)
+                            {
+                                throw new InvalidOperationException($"Requested camera {i} is not available.");
+                            }
 
-                        var frameGrabber = grabbers[i];
-                        var acqFifo = frameGrabber.CreateAcqFifo("Generic GigEVision (Mono)", CogAcqFifoPixelFormatConstants.Format8Grey, 0, true);
+                            var frameGrabber = grabbers[i];
+                            var acqFifo = frameGrabber.CreateAcqFifo("Generic GigEVision (Mono)", CogAcqFifoPixelFormatConstants.Format8Grey, 0, true);
                         
-                        cameras[i] = new CameraInfo(frameGrabber, acqFifo);
+                            cameras[i] = new CameraInfo(frameGrabber, acqFifo);
+                        }
                     }
                 });
 
@@ -182,5 +184,4 @@ namespace Vision
             disposed = true;
         }
     }
-
 }

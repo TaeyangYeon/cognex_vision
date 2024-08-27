@@ -35,7 +35,7 @@ namespace UI
         private Layout_Header header;
 
         // private IMainEvent[] mainEvent;
-        private IMainEvent_2[] mainEvent;
+        private IMainEvent[] mainEvent;
         private MainWindow main;
         private Component_Loading loading;
         private Component_PromptPW promptPW;
@@ -104,7 +104,7 @@ namespace UI
                 new MainEventConfig().iMainEvent(5004, display4, 3)
             };
             */
-            mainEvent = new IMainEvent_2[]
+            mainEvent = new IMainEvent[]
             {
                 new MainEventConfig().iMainEvent_2(5000),
                 new MainEventConfig().iMainEvent_2(5001),

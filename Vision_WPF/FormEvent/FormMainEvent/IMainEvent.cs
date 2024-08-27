@@ -15,9 +15,9 @@ namespace FormEvent
         Task<string> getModelName(string address);
         Task testCycle(int index, Form_Main form, int result, (int x, int y) AlignValues);
         Task socketClose();
-        void initializeCamera();
-        void toggleLiveMode(bool isLiveMode);
-        ICogImage grabImage();
-        Task loadImage();
+        Task initializeCamera();
+        void toggleLiveMode(int cameraIndex, bool isLiveMode, CogDisplay display);
+        Task<ICogImage> grabImage(int cameraIndex, CogDisplay display);
+        Task loadImage(CogDisplay display);
     }
 }

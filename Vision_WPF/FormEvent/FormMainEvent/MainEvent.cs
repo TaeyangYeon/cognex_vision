@@ -288,7 +288,7 @@ namespace FormEvent
             GC.WaitForPendingFinalizers();
         }
 
-        public void initializeCamera()
+        public async Task initializeCamera()
         {
             try
             {
@@ -300,7 +300,7 @@ namespace FormEvent
             }
         }
 
-        public void toggleLiveMode(bool isLiveMode)
+        public void toggleLiveMode(int cameraIndex, bool isLiveMode, CogDisplay display)
         {
             try
             {
@@ -312,12 +312,12 @@ namespace FormEvent
             }
         }
 
-        public ICogImage grabImage()
+        public async Task<ICogImage> grabImage(int cameraIndex, CogDisplay display)
         {
             return grabControl.grabImage();
         }
 
-        public async Task loadImage()
+        public async Task loadImage(CogDisplay display)
         {
             await imageFileControl.loadImage(getImageFilePath());
         }

@@ -13,7 +13,7 @@ using Microsoft.Win32;
 
 namespace FormEvent
 {
-    public class MainEvent_2 : IMainEvent_2
+    public class MainEventGrabAsync : IMainEvent
     {
         private IPositionChangeEvent positionChangeEvent;
         private ISignalLoop signalLoop;
@@ -23,13 +23,13 @@ namespace FormEvent
         private TextBlock currentTotalLabel { get; set; }
         private TextBlock currentNGLabel { get; set; }
 
-        public MainEvent_2(IPositionChangeEvent _positionChangeEvent, ISignalLoop _signalLoop)
+        public MainEventGrabAsync(IPositionChangeEvent _positionChangeEvent, ISignalLoop _signalLoop)
         {
             this.positionChangeEvent = _positionChangeEvent;
             this.signalLoop = _signalLoop;
         }
 
-        public MainEvent_2(IPositionChangeEvent _positionChangeEvent, ISignalLoop _signalLoop, ImageFileControl_2 _imageFileControl)
+        public MainEventGrabAsync(IPositionChangeEvent _positionChangeEvent, ISignalLoop _signalLoop, ImageFileControl_2 _imageFileControl)
         {
             this.positionChangeEvent = _positionChangeEvent;
             this.signalLoop = _signalLoop;
@@ -290,7 +290,7 @@ namespace FormEvent
         {
             try
             {
-                await GrabControl_2.instance.initializeAsync();
+                await GrabControlAsync.instance.initializeAsync();
             }
             catch (Exception e)
             {
@@ -302,7 +302,7 @@ namespace FormEvent
         {
             try
             {
-                await GrabControl_2.instance.toggleLiveModeAsync(cameraIndex, isLiveMode, display);
+                await GrabControlAsync.instance.toggleLiveModeAsync(cameraIndex, isLiveMode, display);
             }
             catch (InvalidOperationException e)
             {
@@ -312,7 +312,7 @@ namespace FormEvent
 
         public async Task<ICogImage> grabImage(int cameraIndex, CogDisplay display)
         {
-            return await GrabControl_2.instance.grabImageAsync(cameraIndex, display);
+            return await GrabControlAsync.instance.grabImageAsync(cameraIndex, display);
         }
 
         public async Task loadImage(CogDisplay display)
@@ -362,7 +362,7 @@ namespace FormEvent
             }
         }
 
-        ~MainEvent_2()
+        ~MainEventGrabAsync()
         {
             Dispose(false);
         }

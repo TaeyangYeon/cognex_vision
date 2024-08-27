@@ -19,9 +19,13 @@ namespace FormEvent
                 );
         }
 
-        public IMainEvent_2 iMainEvent_2(int port)
+        public IMainEvent iMainEvent_2(int port)
         {
-            return new MainEvent_2(new PositionChangeEvent(), new PLCConfig().iSignalLoop(port), new ImageFileControl_2());
+            return new MainEventGrabAsync(
+                new PositionChangeEvent(), 
+                new PLCConfig().iSignalLoop(port), 
+                new ImageFileControl_2()
+                );
         }
 
         public IMainEvent iMainEvent(int port, CogDisplay display, int cameraIndex)

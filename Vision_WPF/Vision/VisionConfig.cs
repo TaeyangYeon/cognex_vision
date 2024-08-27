@@ -6,7 +6,7 @@ namespace Vision
     {
         public IGrabControl iGrabControl(CogDisplay display, int cameraIndex)
         {
-            return new GrabControl(display, cameraIndex);
+            return new GrabControlSync(display, cameraIndex);
         }
 
         public IImageFileControl iImageFileControl(CogDisplay display)
